@@ -1,0 +1,90 @@
+// bool check(ll a,ll b,ll c,ll d)
+// {
+//     if(a<b && a<c && b<d && c<d)
+//     return true;
+//     else
+//     return false;
+// }
+
+void solve()
+{
+    // A
+    // string s;
+    // cin>>s;
+    // cout<<(s[0]-'0')+(s[2]-'0')<<endl;
+    
+    // B
+    // ll a,b,c,d;
+    // cin>>a>>b>>c>>d;
+    // for(int i=0;i<4;i++)
+    // {
+    //     if(check(a,b,c,d))
+    //     {
+    //         cout<<"YES\n";
+    //         return;
+    //     }
+    //     ll tmp=a;
+    //     a=c;
+    //     c=d;
+    //     d=b;
+    //     b=tmp;
+    // }
+    // cout<<"NO\n";
+    
+    // C
+    // ll n,k;
+    // cin>>k>>n;
+    // ll i,cnt=1;
+    // cout<<cnt<<" ";
+    // for(i=1;i<k;i++)
+    // {
+    //     if(n-(cnt + i) < k-i - 1)
+    //     {
+    //         break;
+    //     }
+    //     else
+    //     {
+    //         cnt+=i;
+    //         cout<<cnt<<" ";
+    //     }
+    // }
+    // if(i!=k)
+    // {
+    //     for(int j=i;j<k;j++)
+    //     {
+    //         cout<<++cnt<<" ";
+    //     }
+    // }
+    // cout<<endl;
+    
+    // D
+    // ll n;
+    // cin>>n;
+    // ll arr[n];
+    // vector<pair<ll,ll>> p;
+    // for(int i=0;i<n;i++) cin>>arr[i];
+    // for(int i=0;i<n-1;i++)
+    // {
+    //     ll a=arr[i],b=arr[i+1];
+    //     if(a>b)
+    //     p.pb({(a+b+1)/2,1000000000});
+    //     else if(a==b)
+    //     {p.pb({0,1000000000});}
+    //     else
+    //     p.pb({0,(a+b)/2});
+    // }
+    // ll mx=-1,mn=1000000000;
+    // for(int i=0;i<p.size();i++)
+    // {
+    //     if(p[i].first > mx)
+    //     mx=p[i].first;
+    //     if(p[i].second < mn)
+    //     mn=p[i].second;
+    //     // cout<<p[i].first<<" "<<p[i].second<<endl;
+    // }
+    // if(mx>mn)
+    // cout<<"-1\n";
+    // else
+    // cout<<mx<<endl;
+    
+}
